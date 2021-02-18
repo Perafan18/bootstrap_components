@@ -2,11 +2,11 @@
 
 # BootstrapComponent
 
-require 'bootstrap_component/engine'
+require 'view_component/engine'
 
 require_relative 'base'
-require_relative 'slot'
 
 # Components
 
-require_relative 'acoordion/component'
+require_relative 'accordion/component'
+require_relative 'accordion/item/component'
